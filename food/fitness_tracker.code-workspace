@@ -1,0 +1,17 @@
+{
+  "folders": [
+	{
+		"path": "../fitness_tracker"
+	},
+	{
+		"path": "../google"
+	},
+	{
+		"path": "../subscription"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {}
+}

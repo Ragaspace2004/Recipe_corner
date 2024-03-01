@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div id="root" class="flex h-screen flex-col items-center justify-center bg-gray-200">
+    <div id="card-container" class="flex w-full max-w-xs flex-col justify-between rounded-lg border-gray-200 bg-white p-5 shadow-xl">
+      <h1 class="text-3xl font-bold text-black">What would you like 2 Cook?</h1>
+      <div class="flex flex-row items-center gap-5 mt-3">
+        <input id="task-input" type="text" placeholder="Search for your query" class="ml- rounded-2xl border-black bg-gray-100 p-2 shadow-lg" />
+        <button class="font-bold rounded-full bg-red-400 p-3 text-white hover:bg-red-200">Search</button>
+      </div>
+      <h1 class="text-lg font-bold mt-2">Latest Recipes</h1>
+      <div class="flex flex-row items-center gap-5">
+        <div id="card-container2" class="flex w-full max-w-xs flex-col justify-between gap-3 rounded-lg border-gray-200 bg-white p-4 shadow-xl">
+          <a href="#" id="index1" onclick="document.location=this.id+'.html';return false;" >
+            <img src="images/burger.jpg" alt="burger" class="thumbnails" />
+            <h2 class="font-bold">Special Burger</h2>
+          </a>
+          
+          <p class="text-sm text-gray-400">2 lessons | 3h 12m</p>
+        </div>
+        <div id="card-container3" class="flex w-full max-w-xs flex-col justify-between gap-3 rounded-lg border-gray-200 bg-white p-5 shadow-xl">
+          <a href="#" id="index2" onclick="document.location=this.id+'.html';return false;" >
+            <img src="images/coffee.jpg" alt="burger" class="thumbnails" />
+         
+          <h2 class="font-bold">Coffee</h2></a>
+          <p class="text-sm text-gray-400">2 lessons | 3h 12m</p>
+      </div></div>
+      <h1 class="text-lg font-bold mt-3">Recipe of the Week</h1>
+      <div id="card-container4" class="flex w-full max-w-xs flex-col justify-between  rounded-lg border-gray-200 bg-white p-5 shadow-xl">
+        <a href="#" id="index3" onclick="document.location=this.id+'.html';return false;" >
+      <img src="images/bread.jpg"></a>
+</div>
+    </div>
+  </div>
+  
+</body>
+</html>
